@@ -1,18 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <table>
+      <th>Kerék</th>
+      <tr>
+        <td>100</td>
+        <td>12</td>
+      </tr>
+      <th>Teleszkóp</th>
+      <tr>
+        <td>1000</td>
+        <td>300</td>
+      </tr>
+      <th>Kormány</th>
+      <tr>
+        <td>230</td>
+        <td>5</td>
+      </tr>
+      <th>Ajtó</th>
+      <tr>
+        <td>45120</td>
+        <td>321</td>
+      </tr>
+    </table>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  },
+  
   data() {
     return {
       rows: [
