@@ -2,26 +2,7 @@
   <div id="app">
     
     <table>
-      <th>Kerék</th>
-      <tr>
-        <td>100</td>
-        <td>12</td>
-      </tr>
-      <th>Teleszkóp</th>
-      <tr>
-        <td>1000</td>
-        <td>300</td>
-      </tr>
-      <th>Kormány</th>
-      <tr>
-        <td>230</td>
-        <td>5</td>
-      </tr>
-      <th>Ajtó</th>
-      <tr>
-        <td>45120</td>
-        <td>321</td>
-      </tr>
+      {{ }}
     </table>
   </div>
 </template>
@@ -30,7 +11,7 @@
 
 
 export default {
-  name: 'App',
+  el: '#app',
   
   data() {
     return {

@@ -1,6 +1,6 @@
 <template>
   <div class="tabla">
-    <h1>{{ msg }}</h1>
+    
     
   </div>
 </template>
@@ -9,7 +9,7 @@
 export default {
   name: 'Billing',
   props: {
-    msg: String
+    
   }
 }
 </script>
